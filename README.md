@@ -29,9 +29,9 @@ It is a Project named S.L.A.U.S.E
 ## Some Sneak peeks:
 
 <ul>
-  <li><h2> Jarvis, Are you there?</h2></li>
+  <li><h2> Slause, Are you there?</h2></li>
   <li><h2> At your service, Sir</h2></li>
   
-  <li><h2> Jarvis, What are today's news headlines? can you tell?</h2></li>
+  <li><h2> Slause, What are today's news headlines? can you tell?</h2></li>
   <li><h2>Ofcourse, Sir -> Then news headlines   Would you like to visit the news url?</h2></li>
   
