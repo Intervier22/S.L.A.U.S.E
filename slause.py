@@ -115,10 +115,10 @@ if __name__ == "__main__":
             webbrowser.open("http://youtube.com", new=1)
 
         elif 'open intervier github profile' in query:
-            webbrowser.open("http://youtube.com", new=1)
+            webbrowser.open("https://github.com/Intervier22", new=1)
 
         elif 'open spotify' in query:
-            webbrowser.open("http://youtube.com", new=1)
+            webbrowser.open("open.spotify.com", new=1)
         
         elif 'open gmail' in query:
             webbrowser.open("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox", new=1)
