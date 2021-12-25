@@ -7,6 +7,8 @@ import os
 import random
 import speech_recognition as sr
 import pywhatkit
+import selenium
+import webbrowser
 #import smtplib
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -98,7 +100,7 @@ if __name__ == "__main__":
             speak("'Yes Sir?', 'What can I doo for you sir?'")
 
         elif '*' in query:
-            speak("You dont have a dick.")
+            speak("You dont have a dic-k.")
 
         elif ('your name') in query:
             speak("My name is Slaus")
@@ -110,34 +112,34 @@ if __name__ == "__main__":
             speak("You are welcome sir, no problem")
 
         elif 'play youtube' in query:
-            wb.get('chrome').open('youtube.com')
+            webbrowser.open("http://youtube.com", new=1)
 
         elif 'open intervier github profile' in query:
-            wb.get('chrome').open('github.com/Intervier22')
+            webbrowser.open("http://youtube.com", new=1)
 
         elif 'open spotify' in query:
-            wb.get('chrome').open("open.spotify.com")
+            webbrowser.open("http://youtube.com", new=1)
         
         elif 'open gmail' in query:
-            wb.get('chrome').open("gmail.com")
+            webbrowser.open("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox", new=1)
             
         elif 'open whatsapp' in query:
-            wb.get('chrome').open("web.whatsapp.com")
+            webbrowser.open("web.whatsapp.com", new=1)
         
-        elif 'open instagram' in query:
-            wb.get('chrome').open("instagram.com")
+        elif 'open Instagram' in query:
+             webbrowser.open('http://instagram.com', new=1)
 
         elif 'open google' in query:
-            wb.get('chrome').open("google.com")
+             webbrowser.open('www.google.com', new=1)
             
         elif 'meet' in query:
-            wb.get('chrome').open("meet.google.com")
-
-        elif 'open ndf' in query:
-            wb.get('chrome').open("meet.google.com ndf-mrve-tdf")
+            wb.open("meet.google.com",new=1)
+            
+        elif 'open ndf' or 'my meet' in query:
+            webbrowser.open("meet.google.com/ndf-mrve-tdf", new=1)
 
         elif 'open zaha' in query:
-            wb.get('chrome').open("meet.google.com/cge-zaha-wmg")
+            webbrowser.open("meet.google.com/cge-zaha-wmg", new=1)
         
         elif 'play music' in query:
             # you have to change the music directory
@@ -156,7 +158,7 @@ if __name__ == "__main__":
             tlauncher = 'C:\\Users\\yashr\\AppData\\Roaming\\.minecraft\\TLauncher.exe'
             speak("Opening Minecraft")
             os.startfile(tlauncher)
-            
+
         elif 'play jingle bells' in query:
             jingle_bells = 'D:\\musicplease\\jingle_bells.mp3'
             os.startfile(jingle_bells)
