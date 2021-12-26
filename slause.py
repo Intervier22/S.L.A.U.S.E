@@ -32,8 +32,8 @@ def wishme():
     else:
         speak("Good Evening Sir.")
 
-    speak("I am Slause,Sir. Please tell me how may I help you.....Merry christmas sir")
-    print("I am Slause,Sir. Please tell me how may I help you.Merry christmas sir")
+    speak("I am Slause,Sir. Please tell me how may I help you.....")
+    print("I am Slause,Sir. Please tell me how may I help you.")
 
 def takeCommand():
     # It take microphone input from user and returns string output
