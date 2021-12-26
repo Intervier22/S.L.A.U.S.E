@@ -107,6 +107,9 @@ if __name__ == "__main__":
         
         elif ('hello') in query or ('hi') in query:
             speak("Welcome to Slaus Virtual Intelligence project. At you service sir.")
+            
+        elif ('like google assistant') in query or ('like siri') in query or ('like alexa') in query:
+            speak("Never say that again you son of a bitch.")
 
         elif ('thanks') in query or ('tanks') in query or ('thank you') in query:  
             speak("You are welcome sir, no problem")
