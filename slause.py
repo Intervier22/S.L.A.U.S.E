@@ -7,7 +7,6 @@ import os
 import random
 import speech_recognition as sr
 import pywhatkit
-import selenium
 import webbrowser
 #import smtplib
 engine = pyttsx3.init('sapi5')
