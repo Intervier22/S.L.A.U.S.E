@@ -187,4 +187,5 @@ if __name__ == "__main__":
             img = pyautogui.screenshot()
             img.save(f"{name}.jpg")
             speak("i am done sir, the screenshot is saved to our main folder now i am ready to take next command")
-
+        elif "i love you" in query:
+            speak("fuck you")
