@@ -1,5 +1,6 @@
 from sys import addaudithook, modules
 import pyttsx3
+import pyautogui
 import datetime
 import wikipedia
 import webbrowser as wb
@@ -177,3 +178,13 @@ if __name__ == "__main__":
          # create text file instantaneously
             speak('creating file....')
             createTxtFIle()
+            
+        elif "take a screenshot" in query:
+            speak("sir, please tell me name for this screenshot file")
+            name = takeCommand().lower()
+            speak("please hold the screen for few seconds i am taking screenshot")
+            time.sleep(2)
+            img = pyautogui.screenshot()
+            img.save(f"{name}.jpg")
+            speak("i am done sir, the screenshot is saved to our main folder now i am ready to take next command")
+
